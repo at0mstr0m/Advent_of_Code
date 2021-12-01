@@ -1,6 +1,6 @@
 from collections import Counter
 
-adapters = [0] + sorted([int(number) for number in open('Inputs\Day10Input.txt', 'r').read().splitlines()])
+adapters = [0] + sorted([int(number) for number in open('Inputs/Day10Input.txt', 'r').read().splitlines()])
 adapters.append(max(adapters) + 3)
 differences = Counter([b-a for a, b in zip(adapters, adapters[1:])])
 print('Answer 1:', differences[1] * differences[3])

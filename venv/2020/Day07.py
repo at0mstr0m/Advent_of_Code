@@ -12,7 +12,7 @@ def extract_rule(rule):
         return main_bag, []
     return main_bag, [count_bags(bag) for bag in contents.split(', ')]
 
-raw_input = open('Inputs\Day07input.txt', 'r').read().splitlines()
+raw_input = open('Inputs/Day07input.txt', 'r').read().splitlines()
 rules = dict([extract_rule(line) for line in raw_input])
 
 def contains_gold(bag_name):

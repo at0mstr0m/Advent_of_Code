@@ -1,4 +1,4 @@
-raw_input = open('Inputs\Day08Input.txt', 'r').read().splitlines()
+raw_input = open('Inputs/Day08Input.txt', 'r').read().splitlines()
 
 def get_accumulator_before_loop(instructions:list) -> int:
     accumulator = 0

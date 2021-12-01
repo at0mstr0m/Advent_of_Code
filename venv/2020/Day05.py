@@ -1,6 +1,6 @@
 from collections import defaultdict
 
-with open('Inputs\Day05input.txt', 'r') as f:
+with open('Inputs/Day05input.txt', 'r') as f:
     seatings = f.read().split('\n')
 seat_IDs = []
 decoded_seatings = defaultdict(list)

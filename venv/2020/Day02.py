@@ -1,4 +1,4 @@
-passwords = open('Inputs\Day02input.txt','r').read().split('\n')
+passwords = open('Inputs/Day02input.txt', 'r').read().split('\n')
 result1 = 0
 result2 = 0
 

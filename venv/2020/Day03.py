@@ -1,4 +1,4 @@
-rawdata = open('Inputs\Day03input.txt','r').read().split('\n')
+rawdata = open('Inputs/Day03input.txt', 'r').read().split('\n')
 patterns = []
 for pattern in rawdata:
     patterns.append(pattern * 100)

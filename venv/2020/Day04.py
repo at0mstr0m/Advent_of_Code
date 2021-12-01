@@ -1,4 +1,4 @@
-with open('Inputs\Day04input.txt', 'r') as f:
+with open('Inputs/Day04input.txt', 'r') as f:
     raw_input = f.read().split('\n')
 
 passports = [{}]

@@ -1,4 +1,4 @@
-raw_input = [int(number) for number in open('Inputs\Day09Input.txt', 'r').read().splitlines()]
+raw_input = [int(number) for number in open('Inputs/Day09Input.txt', 'r').read().splitlines()]
 
 def is_valid(num:int, preamble:list) -> bool:
     for i in range(len(preamble)):
