@@ -2,9 +2,7 @@ import re
 from collections import ChainMap
 import numpy
 
-raw_data = [
-    line for line in open("2023/Inputs/Day02Input.txt", "r").read().splitlines()
-]
+raw_data = open("2023/Inputs/Day02Input.txt", "r").read().splitlines()
 id_pattern = re.compile(r"Game\s(\d+):\s")
 bag = {
     "red": 12,

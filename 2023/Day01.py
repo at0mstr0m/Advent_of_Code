@@ -1,6 +1,6 @@
 import re
 
-raw_data = [line for line in open('2023/Inputs/Day01Input.txt', 'r').read().splitlines()]
+raw_data = open('2023/Inputs/Day01Input.txt', 'r').read().splitlines()
 
 numbers = {
     'one': '1',
